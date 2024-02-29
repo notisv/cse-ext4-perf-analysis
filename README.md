@@ -1,7 +1,7 @@
 ## About
 The project was developed for the [Simulation and Modeling of Computational Systems](https://www.cs.uoi.gr/~gkappes/mye029) course @ [cse.uoi.gr](https://www.cs.uoi.gr/)
 
-This project deals with the performance analysis of the journaled file system EXT4 in a VMware Workstation Player virtualization environment using Filebench.
+This project deals with the performance analysis of the journaled file system EXT4 in a VMware Workstation Player virtualization environment using Filebench.<br>
 
 Specifically, one will benchmark the performance of various journaling modes used by the journal maintained by ext4 in a virtual machine intended to run in an environment serving dynamic websites.
 

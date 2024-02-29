@@ -1,0 +1,51 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.015: Web-server Version 3.1 personality successfully loaded
+0.015: Populating and pre-allocating filesets
+0.018: logfiles populated: 1 files, avg. dir. width = 20, avg. dir. depth = 0.0, 0 leafdirs, 0.500MB total size
+0.018: Removing logfiles tree (if exists)
+0.036: Pre-allocating directories in logfiles tree
+0.036: Pre-allocating files in logfiles tree
+0.038: bigfileset populated: 2400 files, avg. dir. width = 20, avg. dir. depth = 2.6, 0 leafdirs, 4872.137MB total size
+0.038: Removing bigfileset tree (if exists)
+0.056: Pre-allocating directories in bigfileset tree
+0.057: Pre-allocating files in bigfileset tree
+26.761: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+26.761: Population and pre-allocation of filesets completed
+26.766: Starting 100 filereader instances
+27.865: Running...
+58.250: Run took 30 seconds...
+58.490: Per-Operation Breakdown
+appendlog            944ops       31ops/s   0.2mb/s      5.4ms/op [0.00ms - 418.24ms]
+closefile10          844ops       28ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.03ms]
+readfile10           854ops       28ops/s  61.1mb/s    338.3ms/op [0.25ms - 1721.62ms]
+openfile10           854ops       28ops/s   0.0mb/s      4.4ms/op [0.01ms - 610.52ms]
+closefile9           854ops       28ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.05ms]
+readfile9            865ops       29ops/s  60.5mb/s    325.6ms/op [0.27ms - 2335.42ms]
+openfile9            868ops       29ops/s   0.0mb/s     10.8ms/op [0.01ms - 1060.46ms]
+closefile8           868ops       29ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.04ms]
+readfile8            874ops       29ops/s  56.1mb/s    311.1ms/op [0.30ms - 2352.66ms]
+openfile8            875ops       29ops/s   0.0mb/s      8.9ms/op [0.01ms - 982.72ms]
+closefile7           875ops       29ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.11ms]
+readfile7            881ops       29ops/s  58.9mb/s    327.5ms/op [0.24ms - 2304.85ms]
+openfile7            882ops       29ops/s   0.0mb/s      6.0ms/op [0.01ms - 635.02ms]
+closefile6           882ops       29ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.08ms]
+readfile6            890ops       30ops/s  59.5mb/s    316.4ms/op [0.27ms - 2296.83ms]
+openfile6            891ops       30ops/s   0.0mb/s     12.1ms/op [0.01ms - 1093.47ms]
+closefile5           891ops       30ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.04ms]
+readfile5            898ops       30ops/s  60.7mb/s    310.2ms/op [0.53ms - 2211.97ms]
+openfile5            898ops       30ops/s   0.0mb/s     16.4ms/op [0.00ms - 1018.34ms]
+closefile4           898ops       30ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.05ms]
+readfile4            908ops       30ops/s  59.0mb/s    308.8ms/op [0.43ms - 1763.27ms]
+openfile4            911ops       30ops/s   0.0mb/s     16.6ms/op [0.00ms - 1082.35ms]
+closefile3           911ops       30ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.04ms]
+readfile3            917ops       31ops/s  62.5mb/s    323.7ms/op [0.27ms - 2063.09ms]
+openfile3            919ops       31ops/s   0.0mb/s     15.8ms/op [0.00ms - 763.43ms]
+closefile2           919ops       31ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.05ms]
+readfile2            929ops       31ops/s  62.2mb/s    310.2ms/op [0.14ms - 1620.87ms]
+openfile2            934ops       31ops/s   0.0mb/s      5.7ms/op [0.00ms - 1052.09ms]
+closefile1           934ops       31ops/s   0.0mb/s      0.0ms/op [0.00ms -  0.04ms]
+readfile1            942ops       31ops/s  66.0mb/s    330.6ms/op [0.16ms - 2174.75ms]
+openfile1            944ops       31ops/s   0.0mb/s      8.1ms/op [0.01ms - 698.02ms]
+58.490: IO Summary: 27753 ops 924.854 ops/s 298/31 rd/wr 606.5mb/s 299.6ms/op
+58.490: Shutting down processes

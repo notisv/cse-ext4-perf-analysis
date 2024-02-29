@@ -1,0 +1,67 @@
+Average CPU util percentage (user): 0.35 / Average CPU util percentage (sys): 55.41 / Average CPU iowait percentage: 42.74 / Average CPU idle percentage: 1.49
+Average memory usage percentage: 19.99 / Average memory commit percentage: 70.82
+Average disk tranfers per second (tps): 1000.21 / Average disk read kBs: 569774.79 / Average disk write kBs: 88255.25 / Average disk util percentage: 98.01
+Average ops: 50308 / Average ops per sec: 1676.31 / Average reads: 540 / Average writes: 54 / Average mb/s: 1099.21 / Average ms/op: 1.70
+Average context switches: 74082 / Average page faults: 6307 / Average L1 dcache misses percentage: 2.40 / Average L1 icache misses percentage: 1.17
+Top 2 processes of each run:
+~~~~~~~~~~
+    48.10%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.76%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.36%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.99%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.37%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.94%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.00%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+    10.02%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    47.99%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+    10.13%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    46.86%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+     9.55%  filebench        [kernel.kallsyms]                [k] clear_page_erms
+~~~~~~~~~~
+    48.10%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+    10.08%  filebench        [kernel.kallsyms]                [k] clear_page_erms
+~~~~~~~~~~
+    48.42%  filebench        [kernel.kallsyms]        [k] copy_user_enhanced_fast_string
+    10.13%  filebench        [kernel.kallsyms]        [k] clear_page_erms
+~~~~~~~~~~
+    47.85%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+    10.01%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    47.76%  filebench        [kernel.kallsyms]            [k] copy_user_enhanced_fast_string
+     9.69%  filebench        [kernel.kallsyms]            [k] clear_page_erms
+~~~~~~~~~~
+    48.85%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.80%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.81%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+    10.16%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.32%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.88%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.40%  filebench        [kernel.kallsyms]        [k] copy_user_enhanced_fast_string
+    10.09%  filebench        [kernel.kallsyms]        [k] clear_page_erms
+~~~~~~~~~~
+    48.51%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.86%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.58%  filebench        [kernel.kallsyms]        [k] copy_user_enhanced_fast_string
+     9.41%  filebench        [kernel.kallsyms]        [k] clear_page_erms
+~~~~~~~~~~
+    47.36%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+     9.70%  filebench        [kernel.kallsyms]                [k] clear_page_erms
+~~~~~~~~~~
+    48.37%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+    10.18%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.64%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+     9.80%  filebench        [kernel.kallsyms]           [k] clear_page_erms
+~~~~~~~~~~
+    48.32%  filebench        [kernel.kallsyms]        [k] copy_user_enhanced_fast_string
+     9.71%  filebench        [kernel.kallsyms]        [k] clear_page_erms
+~~~~~~~~~~

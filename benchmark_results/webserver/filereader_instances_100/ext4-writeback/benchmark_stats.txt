@@ -1,0 +1,67 @@
+Average CPU util percentage (user): 0.57 / Average CPU util percentage (sys): 58.17 / Average CPU iowait percentage: 38.72 / Average CPU idle percentage: 2.55
+Average memory usage percentage: 45.36 / Average memory commit percentage: 105.75
+Average disk tranfers per second (tps): 1017.72 / Average disk read kBs: 299859.59 / Average disk write kBs: 87049.50 / Average disk util percentage: 95.98
+Average ops: 26499 / Average ops per sec: 882.85 / Average reads: 284 / Average writes: 29 / Average mb/s: 577.28 / Average ms/op: 313.11
+Average context switches: 113477 / Average page faults: 303544 / Average L1 dcache misses percentage: 4.15 / Average L1 icache misses percentage: 1.19
+Top 2 processes of each run:
+~~~~~~~~~~
+    26.86%  filebench        [kernel.kallsyms]              [k] count_shadow_nodes
+    20.82%  filebench        [kernel.kallsyms]              [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.48%  filebench        [kernel.kallsyms]                   [k] count_shadow_nodes
+    22.01%  filebench        [kernel.kallsyms]                   [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.90%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    22.26%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.98%  filebench        [kernel.kallsyms]                [k] count_shadow_nodes
+    22.61%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.49%  filebench        [kernel.kallsyms]                [k] count_shadow_nodes
+    22.71%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    24.46%  filebench        [kernel.kallsyms]                [k] count_shadow_nodes
+    23.72%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.74%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    22.55%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    22.85%  filebench        [kernel.kallsyms]                [k] count_shadow_nodes
+    21.76%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    27.22%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    21.44%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    25.78%  filebench        [kernel.kallsyms]        [k] count_shadow_nodes
+    21.92%  filebench        [kernel.kallsyms]        [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.28%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    21.23%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.94%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    20.78%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.56%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    21.98%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.07%  filebench        [kernel.kallsyms]                [k] count_shadow_nodes
+    20.79%  filebench        [kernel.kallsyms]                [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.55%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    21.44%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    28.02%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    21.47%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    24.36%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    22.62%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    27.36%  filebench        [kernel.kallsyms]         [k] count_shadow_nodes
+    21.15%  filebench        [kernel.kallsyms]         [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    26.54%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    22.35%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~
+    26.00%  filebench        [kernel.kallsyms]           [k] count_shadow_nodes
+    22.74%  filebench        [kernel.kallsyms]           [k] copy_user_enhanced_fast_string
+~~~~~~~~~~

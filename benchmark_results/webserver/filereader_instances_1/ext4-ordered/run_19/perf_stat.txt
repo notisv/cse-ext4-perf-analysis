@@ -1,0 +1,31 @@
+# started on Wed Apr 27 01:03:02 2022
+
+
+ Performance counter stats for 'system wide':
+
+         60,000.43 msec cpu-clock                 #    1.000 CPUs utilized          
+            77,997      context-switches          #    0.001 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             6,958      page-faults               #    0.116 K/sec                  
+    90,656,357,004      cycles                    #    1.511 GHz                      (31.32%)
+     1,013,322,548      stalled-cycles-frontend   #    1.12% frontend cycles idle     (31.09%)
+     1,339,922,051      stalled-cycles-backend    #    1.48% backend cycles idle      (31.11%)
+    70,552,999,602      instructions              #    0.78  insn per cycle         
+                                                  #    0.02  stalled cycles per insn  (31.07%)
+    14,335,489,030      branches                  #  238.923 M/sec                    (31.18%)
+       142,711,096      branch-misses             #    1.00% of all branches          (31.31%)
+    90,882,325,391      L1-dcache-loads           # 1514.695 M/sec                    (31.35%)
+     2,203,427,284      L1-dcache-load-misses     #    2.42% of all L1-dcache accesses  (31.26%)
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+     4,754,318,369      L1-icache-loads           #   79.238 M/sec                    (31.30%)
+        56,341,597      L1-icache-load-misses     #    1.19% of all L1-icache accesses  (31.26%)
+       283,956,419      dTLB-loads                #    4.733 M/sec                    (31.11%)
+       196,365,052      dTLB-load-misses          #   69.15% of all dTLB cache accesses  (31.41%)
+        87,722,387      iTLB-loads                #    1.462 M/sec                    (31.41%)
+        37,177,273      iTLB-load-misses          #   42.38% of all iTLB cache accesses  (31.40%)
+     1,357,245,572      L1-dcache-prefetches      #   22.621 M/sec                    (31.41%)
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      60.000014425 seconds time elapsed
+
